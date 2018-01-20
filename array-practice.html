@@ -7,37 +7,38 @@
     <title>Your favorite things</title>
   </head>
   <body>
-    <div id="begin">
-      <h1>Let's find out a few of your favorite things</h1>
-      <button class="btn btn-success btn-lg" id="startButton">Begin</button>
-    </div>
-    <form class="question" id="color">
-      <h1>What's your favorite color?</h1>
-      <input id="favoriteColor" type="text">
-      <button class="btn btn-success btn-lg">Submit</button>
-    </form>
-    <form class="question" id="animal">
-      <h1>What's your favorite animal?</h1>
-      <input id="favoriteAnimal" type="text">
-      <button class="btn btn-success btn-lg">Submit</button>
-    </form>
-    <form class="question" id="city">
-        <h1>What's your favorite city?</h1>
-        <input id="favoriteCity" type="text">
+    <div class="container">
+      <div id="begin">
+        <h1>Let's find out a few of your favorite things</h1>
+        <button class="btn btn-success btn-lg" id="startButton">Begin</button>
+      </div>
+      <form class="question" id="color">
+        <h1>What's your favorite color?</h1>
+        <input id="favoriteColor" autofocus="autofocus" type="text">
         <button class="btn btn-success btn-lg">Submit</button>
-    </form>
-    <form class="question" id="food">
-      <h1>What's your favorite food?</h1>
-      <input id="favoriteFood" type="text">
-      <button class="btn btn-success btn-lg">Submit</button>
-    </form>
-    <div class="answers">
-      <button class="btn btn-danger btn-lg" id="buttonColor">Show Favorite Color</button>
-      <button class="btn btn-danger btn-lg" id="buttonAnimal">Show Favorite Animal</button>
-      <button class="btn btn-danger btn-lg" id="buttonCity">Show Favorite City</button>
-      <button class="btn btn-danger btn-lg" id="buttonFood">Show Favorite Food</button>
+      </form>
+      <form class="question" id="animal">
+        <h1>What's your favorite animal?</h1>
+        <input id="favoriteAnimal" type="text">
+        <button class="btn btn-success btn-lg">Submit</button>
+      </form>
+      <form class="question" id="city">
+          <h1>What's your favorite city?</h1>
+          <input id="favoriteCity" type="text">
+          <button class="btn btn-success btn-lg">Submit</button>
+      </form>
+      <form class="question" id="food">
+        <h1>What's your favorite food?</h1>
+        <input id="favoriteFood" type="text">
+        <button class="btn btn-success btn-lg">Submit</button>
+      </form>
+      <div class="answers">
+        <button class="btn btn-danger btn-lg" id="buttonColor">Show Favorite Color</button>
+        <button class="btn btn-danger btn-lg" id="buttonAnimal">Show Favorite Animal</button>
+        <button class="btn btn-danger btn-lg" id="buttonCity">Show Favorite City</button>
+        <button class="btn btn-danger btn-lg" id="buttonFood">Show Favorite Food</button>
+      </div>
+      <h1><div class="showFavorites"></div></h1>
     </div>
-    <h1><div class="showFavorites"></div></h1>
-
   </body>
 </html>

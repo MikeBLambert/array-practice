@@ -11,6 +11,7 @@ $(document).ready(function() {
     console.log(favorites);
     $(".question#color").hide();
     $(".question#animal").show();
+    $("#favoriteAnimal").focus();
 
   $(".question#animal").submit(function(event) {
   event.preventDefault();
@@ -18,6 +19,7 @@ $(document).ready(function() {
     favorites.push(animal);
     $(".question#animal").hide();
     $(".question#city").show();
+    $("#favoriteCity").focus();
 
   $(".question#city").submit(function(event) {
   event.preventDefault();
@@ -25,6 +27,7 @@ $(document).ready(function() {
     favorites.push(city);
     $(".question#city").hide();
     $(".question#food").show();
+    $("#favoriteFood").focus();
 
     $(".question#food").submit(function(event) {
     event.preventDefault();
